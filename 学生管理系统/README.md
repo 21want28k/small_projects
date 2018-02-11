@@ -296,18 +296,15 @@ if __name__ == '__main__':
 ```
 ## 效果展示
 - 查看信息    
-![](https://github.com/21want28k/small_projects/blob/master/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/image/%E6%9F%A5%E7%9C%8B%E5%8A%9F%E8%83%BD.png)
+![](https://github.com/21want28k/small_projects/blob/master/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/image/%E6%9F%A5%E7%9C%8B%E5%8A%9F%E8%83%BD.png)  
 - 添加信息    
-![](https://github.com/21want28k/small_projects/blob/master/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/image/%E6%B7%BB%E5%8A%A0%E5%8A%9F%E8%83%BD.png)
-
-![](https://github.com/21want28k/small_projects/blob/master/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/image/xml%E6%B7%BB%E5%8A%A0.png) 
+![](https://github.com/21want28k/small_projects/blob/master/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/image/%E6%B7%BB%E5%8A%A0%E5%8A%9F%E8%83%BD.png)  
+![](https://github.com/21want28k/small_projects/blob/master/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/image/xml%E6%B7%BB%E5%8A%A0.png)   
 - 删除信息    
-![](https://github.com/21want28k/small_projects/blob/master/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/image/%E5%88%A0%E9%99%A4%E5%8A%9F%E8%83%BD.png)   
-
-![](https://github.com/21want28k/small_projects/blob/master/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/image/%E5%88%A0%E9%99%A4xml.png)   
+![](https://github.com/21want28k/small_projects/blob/master/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/image/%E5%88%A0%E9%99%A4%E5%8A%9F%E8%83%BD.png)  
+![](https://github.com/21want28k/small_projects/blob/master/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/image/%E5%88%A0%E9%99%A4xml.png)     
 - 修改信息    
-![](https://github.com/21want28k/small_projects/blob/master/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/image/%E4%BF%AE%E6%94%B9.png)
-
+![](https://github.com/21want28k/small_projects/blob/master/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/image/%E4%BF%AE%E6%94%B9.png)  
 ![](https://github.com/21want28k/small_projects/blob/master/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/image/%E4%BF%AE%E6%94%B9xml.png)   
 ## 总结
 - 优点
