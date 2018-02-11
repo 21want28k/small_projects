@@ -1,15 +1,15 @@
-##前景
+## 前景  
 学习python中看到廖老师的xml操作，便想着来玩一把～大概有sax等几种方法，由于感觉这种比较麻烦，便找到了xml.etree.Element这个模块，轻量级的操作xml，挺好用的，关于内存占用的问题，因为还没遇到，似乎文档里面有解决方df案。学了xml操作之后，便学着用到小项目里面，顺便简单的学习了一下MVC这种架构.
-##思路
+## 思路  
 - view层,只负责数据的显示，和向model层去请求数据。
 - controller 层，负责接受用户的指令，调用视图，让视图去向model请求数据，拿到数据之后，通过view层显示数据。更改数据时，接受用户指令，直接作用于model之上
 - model层，独立于控制器，和视图，可以独自进行数据的查，改
-##模块说明
+## 模块说明  
 - view.py 负责向model请求数据，然后显示数据
 - control.py 负责接受用户的指令，所有用户指令全部由它来接受，然后由它去调用view显示数据，调用model修改数据。只负责控制整个过程。
 - model.py model层能独立于其它两层，它所有的实质功能都由它来操作，view只能调用它的功能
 - Operator.py 负责操作数据xml的文件，也属于model层，为了清楚点，单独用了一个模块，model,py调用它来执行数据修改.然后修改之后，美化xml。
-##代码示例
+## 代码示例  
 - view.py
 ```python
 from model.student模型 import Student as S
@@ -293,8 +293,8 @@ if __name__ == '__main__':
 	</student>
 </exam>
 ```
-##效果展示
-##总结
+## 效果展示
+## 总结
 - 优点
 	- 用到了MVC分层的思想
 	- 运用了xml.etree.element模块
@@ -305,9 +305,9 @@ if __name__ == '__main__':
 	 - 要是用个GUI来实现功能会比较好，用户体验更好
 
 虽说，代码写的蛮烂哈哈哈～不过总归是自己的一个练手小项目，玩的太少。还是第一次用分层的思想去实现自己的小项目，自己动手写了这么些代码，小有成就感～有待up～加油啦～，希望看到的各位大神，能指出我的不足，让我能够修改。完善，3Q
-##参考链接
-[xml美化1](http://blog.csdn.net/shinobiii/article/details/8253976)
-[xml美化2](http://blog.linhere.com/archives/355.html)
-[MVC](https://draveness.me/mvx)
-[深入解读xml解析几种方式](http://codingpy.com/article/parsing-xml-using-python/)
+## 参考链接
+[xml美化1](http://blog.csdn.net/shinobiii/article/details/8253976)  
+[xml美化2](http://blog.linhere.com/archives/355.html)  
+[MVC](https://draveness.me/mvx)  
+[深入解读xml解析几种方式](http://codingpy.com/article/parsing-xml-using-python/)  
 [python中文文档](http://python.usyiyi.cn/translate/python_352/library/xml.etree.elementtree.html#module-xml.etree.ElementTree)
