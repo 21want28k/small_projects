@@ -9,6 +9,7 @@
 - control.py 负责接受用户的指令，所有用户指令全部由它来接受，然后由它去调用view显示数据，调用model修改数据。只负责控制整个过程。
 - model.py model层能独立于其它两层，它所有的实质功能都由它来操作，view只能调用它的功能
 - Operator.py 负责操作数据xml的文件，也属于model层，为了清楚点，单独用了一个模块，model,py调用它来执行数据修改.然后修改之后，美化xml。
+![](https://github.com/21want28k/small_projects/blob/master/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/image/2018-02-11%2011-36-15%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png) 
 ## 代码示例  
 - view.py
 ```python
@@ -294,6 +295,17 @@ if __name__ == '__main__':
 </exam>
 ```
 ## 效果展示
+- 查看信息
+![](https://github.com/21want28k/small_projects/blob/master/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/image/%E6%9F%A5%E7%9C%8B%E5%8A%9F%E8%83%BD.png) 
+- 添加信息
+![](https://github.com/21want28k/small_projects/blob/master/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/image/%E6%B7%BB%E5%8A%A0%E5%8A%9F%E8%83%BD.png) 
+![](https://github.com/21want28k/small_projects/blob/master/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/image/xml%E6%B7%BB%E5%8A%A0.png) 
+- 删除信息
+![](https://github.com/21want28k/small_projects/blob/master/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/image/%E5%88%A0%E9%99%A4%E5%8A%9F%E8%83%BD.png) 
+![](https://github.com/21want28k/small_projects/blob/master/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/image/%E5%88%A0%E9%99%A4xml.png) 
+- 修改信息
+![](https://github.com/21want28k/small_projects/blob/master/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/image/%E4%BF%AE%E6%94%B9.png) 
+![](https://github.com/21want28k/small_projects/blob/master/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/image/%E4%BF%AE%E6%94%B9xml.png) 
 ## 总结
 - 优点
 	- 用到了MVC分层的思想
