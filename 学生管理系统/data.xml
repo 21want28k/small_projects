@@ -1,0 +1,14 @@
+<exam>
+	<student id="001">
+		<time>2015</time>
+		<name>张三</name>
+		<sex>男</sex>
+		<grade>90</grade>
+	</student>
+	<student id="002">
+		<time>2016</time>
+		<name>李四</name>
+		<sex>男</sex>
+		<grade>99</grade>
+	</student>
+</exam>
